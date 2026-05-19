@@ -1,0 +1,30 @@
+{
+  "name": "inbox-mark-all-read-context-menu",
+  "displayName": "Inbox Mark All Read Context Menu",
+  "description": "Adds a Mark All as Read action to inbox items in the Mailspring account sidebar.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "./lib/main.js",
+  "syncInit": true,
+  "scripts": {
+    "test": "node --check lib/main.js"
+  },
+  "keywords": [
+    "mailspring",
+    "mailspring-plugin",
+    "email",
+    "inbox",
+    "mark-as-read"
+  ],
+  "files": [
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "mailspring": "*"
+  },
+  "windowTypes": {
+    "all": true
+  }
+}
